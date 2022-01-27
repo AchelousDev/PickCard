@@ -36,10 +36,10 @@ public class CardTrick {
                 System.out.println("    - Right Choice " + "(" + magicHand[i] + ")");
             }
             
-       }
-       public static void printInfo()
+        }
+    }
+    public static void printInfo()
        {
             System.out.println("Zhenqian Fan");
        }
-    }   
 }
