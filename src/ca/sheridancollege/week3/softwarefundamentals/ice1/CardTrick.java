@@ -19,6 +19,7 @@ public class CardTrick {
     
     public static void main(String[] args)
     {
+        printInfo();
         Scanner input = new Scanner(System.in);
         Random card = new Random();
         int[] magicHand = new int[7];
@@ -35,6 +36,10 @@ public class CardTrick {
                 System.out.println("    - Right Choice " + "(" + magicHand[i] + ")");
             }
             
-        }
+       }
+       public static void printInfo()
+       {
+            System.out.println("Zhenqian Fan");
+       }
     }   
 }
