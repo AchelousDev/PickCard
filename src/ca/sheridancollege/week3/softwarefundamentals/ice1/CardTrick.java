@@ -36,11 +36,5 @@ public class CardTrick {
             }
             
         }
-        
-        
-        
-         
     }   
-    
-    
 }
